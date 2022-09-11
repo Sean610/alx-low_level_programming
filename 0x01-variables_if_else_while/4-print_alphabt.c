@@ -12,9 +12,13 @@ int main(void)
 
 	while (alph <= 'z')
 	{
-			putchar(alph);
-			alph++;
+		if (alph != 'e' && alph != 'q')
+		{
+			putchar (alph);
+		}
+
 	}
 	putchar('\n');
+	
 	return (0);
 }
