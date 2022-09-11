@@ -8,19 +8,17 @@
  */
 int main(void)
 {
-	char alph = 'a';
-        char num = '1';
+	char alph;
+        char num;
 
-	while (alph <= 'z')
+	for (num = '0'; num <= '9'; num++)
 	{
-			putchar(alph);
-			alph++;
+			putchar(num);
 	}
 
-	while (num <= '9')
+	for (alph = 'a'; alph <= 'f'; alph++)
 	{
-		putchar(num);
-		num++;
+		putchar(alph);
 	}
 	putchar('\n');
 	
