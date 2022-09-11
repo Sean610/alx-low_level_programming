@@ -3,24 +3,24 @@
 #include <time.h>
 /**
  * main - Entry point
- *
+ * Description: Get a random number and check its last digit, compare it with 5
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
-	int l;
-	char str[] = "Last digit of",
+	int L;
+	char str[] = "Last digit of";
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	l = n % 10;
-	if (l > 5)
-		printf("%s %d and is greater than 5\n", str, n, l);
-	else if (l == 0)
-		printf("%s %d and is 0\n", str, n, l );
-	else if (0 != l < 6)
-		printf("%s %d and is less than 6 and not 0", str, n, l);
+	L = n % 10;
+	if (L > 5)
+		printf("%s %d is %d and is greater than 5\n", str, n, L);
+	else if (L == 0)
+		printf("%s %d is %d and is 0\n", str, n, L);
+	else if (L < 6)
+		printf("%s %d is %d and is less than 6 and not 0", str, n, L);
 
 	return (0);
 }
