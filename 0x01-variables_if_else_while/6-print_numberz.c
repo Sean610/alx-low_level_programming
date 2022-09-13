@@ -6,7 +6,7 @@
  *
  * Return: Always o (Success)
  */
-int main (void)
+int main(void)
 {
 
 	int num;
@@ -16,6 +16,6 @@ int main (void)
 		putchar (num);
 	}
 	putchar ('\n');
-	
+
 	return (0);
 }
