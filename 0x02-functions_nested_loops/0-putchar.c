@@ -11,24 +11,15 @@ int main(void)
 	char str[5];
 	int m;
 
-	str[0] = '_';
-	str[1] = 'p';
-	str[2] = 'u';
-	str[3] = 't';
-	str[4] = 'c';
-	str[5] = 'h';
-	str[6] = 'a';
-	str[7] = 'r';
-	str[8] = '\n';
-	str[9] = '0';
-	m = 0;
-	
-	while (str[m] != '\0')
-	{
-		putchar(str[m]);
-		m++;
-	}
-
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n')
 
 	return (0);
 }
