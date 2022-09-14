@@ -6,10 +6,8 @@
  * Description: Prints a string with putchar function
  * Return: 0 => Success.
  */
-int main(void)
+int main(void)i
 {
-	char str[5];
-	int m;
 
 	_putchar('_');
 	_putchar('p');
@@ -19,7 +17,7 @@ int main(void)
 	_putchar('h');
 	_putchar('a');
 	_putchar('r');
-	_putchar('\n')
+	_putchar('\n');
 
 	return (0);
 }
